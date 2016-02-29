@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+{% block title %}About{% endblock %}
+{% block head %}{{ super() }}{% endblock %}
+{% block content %}
+    <h1 class="page-header">{{ self.title() }}</h1>
+    <p class="lead">
+        Minimal Flask template with bootstrap
+    </p>
+    <p>
+        <a href="https://github.com/Kibur/Flask-Template">
+            https://github.com/Kibur/Flask-Template
+        </a>
+    </p>
+{% endblock %}
