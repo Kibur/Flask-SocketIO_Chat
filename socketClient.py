@@ -52,6 +52,7 @@ class ChatNamespace(BaseNamespace):
 
     def on_disconnect(self):
         print '[Disconnected]'
+        socketIO.disconnect()
 
     def on_chat_message(self, data):
         print data
