@@ -1,7 +1,7 @@
 __author__ = 'Kibur'
 
 from flask import session, request
-from hello_world import socketio
+from . import socketio
 from flask_socketio import emit, send
 
 @socketio.on('connect', namespace='/chat')

@@ -2,7 +2,7 @@ __author__ = 'Kibur'
 
 import logging
 from flask import render_template
-from hello_world import app
+from . import app
 
 log = logging.getLogger(__name__)
 log.setLevel(logging.DEBUG)

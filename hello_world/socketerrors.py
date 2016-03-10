@@ -1,6 +1,6 @@
 __author__ = 'Kibur'
 
-from hello_world import socketio
+from . import socketio
 from flask import request
 
 # For debugging

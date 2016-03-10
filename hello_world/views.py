@@ -1,7 +1,7 @@
 __author__ = 'Kibur'
 
 from flask import render_template
-from hello_world import app
+from . import app
 
 @app.route('/')
 def index():
